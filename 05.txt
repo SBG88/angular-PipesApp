@@ -1,0 +1,29 @@
+PipesApp
+
+Pipes => nos permite transformar la data de manera visual.
+
+PrimeNG
+
+# install
+
+  npm install primeng
+  npm install primeicons
+
+  npm install @angular/animations --save
+
+# add to angular.json > styles:
+
+  "node_modules/primeicons/primeicons.css",
+  "node_modules/primeng/resources/themes/lara-dark-indigo/theme.css",
+  "node_modules/primeng/resources/primeng.min.css"
+
+# use button example:
+
+  1.- import module into app.module.ts => import { ButtonModule } from 'primeng/button';
+  2.- go to app.component.html and place a button => <p-button label="Hello" icon="pi pi-check" iconPos="right"></p-button>
+  3.- to future component use, import on principal module this module import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+------------------------------
+
+# Create a top Menu
+
+
